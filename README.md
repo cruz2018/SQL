@@ -16,3 +16,5 @@ CREATE TABLE student (
     
     PRIMARY KEY(student_id)
 );
+
+INSERT INTO `student`(`student_id`, `Member`, `Amount`, `Description`, `Status`) VALUES (1, 'Linnea Nilsson', 8.00, 'MMA - drop in fees', '27/07/2019')
